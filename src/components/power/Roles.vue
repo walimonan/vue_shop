@@ -244,6 +244,7 @@ export default {
         }
       })
     },
+    //点击按钮，显示对话框，并传入当前点击处的id值
     async showEditDialog(id) {
       const { data: res } = await this.$http.get('roles/' + id)
 
